@@ -17,7 +17,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: resolve(projectRoot, "src/index.html"),
-        episode01: resolve(projectRoot, "src/episodes/01.html")
+        episode01: resolve(projectRoot, "src/episodes/01.html"),
+        episode02: resolve(projectRoot, "src/episodes/02.html")
       }
     }
   }
